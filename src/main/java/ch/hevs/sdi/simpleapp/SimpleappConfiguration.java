@@ -11,6 +11,6 @@ public class SimpleappConfiguration {
     @Scope("singleton")
     @Lazy(false)
     Printer printer() {
-        return new SimplePrinter();
+        return new FancyPrinter();
     }
 }
