@@ -6,7 +6,7 @@ import org.springframework.context.annotation.*;
 public class SimpleappConfiguration {
     @Bean
     @Profile("default")
-    Printer printer() {
+    Printer simplePrinter() {
         return new SimplePrinter();
     }
 
